@@ -1,0 +1,11 @@
+body >div,
+#mainPage
+{
+    display: grid;
+    justify-items:center;
+}
+
+
+#btn_bindLINEID{
+    width: 100%;
+}

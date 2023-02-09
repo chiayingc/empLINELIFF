@@ -1,0 +1,75 @@
+#bindBlock{
+    display: grid;
+    justify-items: center;
+}
+
+#background{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(231,231,231,0.8);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    
+}
+
+#bindForm{
+    border-radius: 10px;
+    background-color: #fff;
+    height: fit-content;
+    width: 80%;
+    padding: 25px;
+    display: grid;
+    justify-items: center;
+    position: absolute;
+    top:20vh;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+
+
+#bindBlock_title{
+    font-size: x-larger;
+    font-weight: 700;
+}
+
+.bindBlock_data{
+    width: 90%;
+    max-width: 300px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 25% auto;
+    column-gap: 8px;
+}
+
+.bindBlock_data >input{
+    width: 100%;
+    padding: 3px 10px 3px 10px ;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #666;
+}
+
+
+#btn_bindID{
+    margin-top: 10px;
+    border: 1px solid #9b9b9b !important;
+    color: #444;
+    font-weight: 800;
+    background-color: #fff !important;
+}
+
+#btn_close{
+    justify-self: right;
+}
+
+.swal2-styled.swal2-confirm{
+    background-color: #fff !important;
+    color:#0eadcd !important;
+    border: 1px solid #0eadcd !important;
+}
+
+
+

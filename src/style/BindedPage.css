@@ -1,0 +1,10 @@
+body >div,
+#bindedPage
+{
+    display: grid;
+    justify-items:center;
+}
+
+#btn_goTicket{
+    width: 100%;
+}

@@ -1,0 +1,56 @@
+body >div{
+    width: 100%;
+
+}
+
+#createTicketPage{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+#createTicket_title{
+    font-size: x-larger;
+    font-weight: 700;
+}
+
+.createTicket_btns{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 23% 23% auto;
+    column-gap: 5px;
+}
+
+#btn_close{
+    position: relative;
+    right: calc(50% - 150px);
+
+}
+
+.createTicket_data{
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 31% auto 20%;
+    column-gap: 5px;
+}
+
+.createTicket_data >input{
+    width: 100%;
+    padding: 3px 10px 3px 10px ;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #666;
+}
+
+
+
+
