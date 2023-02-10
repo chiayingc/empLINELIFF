@@ -13,6 +13,10 @@ function BindBlock() {
         console.log("verify");
         // 這邊fetch API驗證成不成功
 
+
+        let apiUrl="http://www.jithouse.com.tw/test2_lot/index.php?r=user/testapi";
+        
+
     let verifyResult="";
 
 
