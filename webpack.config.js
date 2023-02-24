@@ -2,15 +2,20 @@ const path =require('path');
 const fs = require('fs');
 
 module.exports ={
-    // mode:'production',
-    mode:'development',
+    mode:'production',
+    //mode:'development',
     entry:'./src/index.js'
     ,
     output:{
         filename:'bundle.js',
         path: path.resolve(__dirname, "./dist")
     },
-
+    performance: {
+        // hints:false, //關閉提示
+        hints: "error",
+        maxAssetSize: 10844000, // bytes
+        maxEntrypointSize: 10844000, // bytes
+    },
     module:{
         rules: [
             //JSX編譯器.ES6編譯器
