@@ -9,3 +9,20 @@ body >div,
 #btn_bindLINEID{
     width: 100%;
 }
+
+.swal2-html-container {
+    max-width:90vw !important;
+}
+
+#userPic{
+    max-width:90vw !important;
+}
+
+.text-center, .rounded{
+    max-width:90% !important;
+}
+
+.input-group{
+    max-width:100% !important; 
+
+}

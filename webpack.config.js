@@ -1,5 +1,8 @@
 const path =require('path');
+const fs = require('fs');
+
 module.exports ={
+    // mode:'production',
     mode:'development',
     entry:'./src/index.js'
     ,
@@ -19,10 +22,20 @@ module.exports ={
         
     },
     devServer:{
-        port: 9000,
+        // port: 443,
+        // host: "xxx.xxx.xxx.xxx",
         static: "./dist",
         allowedHosts: ['all'],
         historyApiFallback: true,
+
+        
+        // https:true
+
+        // https: {
+        //     key: fs.readFileSync('./dist/ssl/private.pem'),
+        //     cert: fs.readFileSync('./dist/ssl/certificate.pem'),
+        //     ca: fs.readFileSync('./dist/ssl/ca_bundle.pem')
+        // }
     },
     devtool: 'inline-source-map'
 

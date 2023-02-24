@@ -14,8 +14,39 @@ function BindBlock() {
         // 這邊fetch API驗證成不成功
 
 
-        let apiUrl="http://www.jithouse.com.tw/test2_lot/index.php?r=user/testapi";
+        let apiUrl="http://www.jithouse.com.tw/test2_lot/index.php?r=test/testapi";
+
+        fetch( apiUrl, { /*設定request內容*/})
+        .then(res => res.json()) /*把request json化*/
+        .then(data => {
+              /*接到request data後要做的事情*/
+              console.log("data:",data);
+        })
+        .catch(e => {
+            /*發生錯誤時要做的事情*/
+            console.log("fail");
+        })
+
+
         
+
+/* line liff */
+
+
+
+
+
+
+
+
+
+
+/* */
+
+
+
+
+
 
     let verifyResult="";
 
